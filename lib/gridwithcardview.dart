@@ -41,7 +41,7 @@ class Grid_With_Card_View extends StatelessWidget {
               crossAxisCount: 2,
               crossAxisSpacing: 20,
               mainAxisSpacing: 20,
-              childAspectRatio: 10),
+              childAspectRatio: 2),
           itemBuilder: (context, index) {
             return Container(
               decoration: BoxDecoration(
@@ -54,6 +54,7 @@ class Grid_With_Card_View extends StatelessWidget {
                     cardcontent[index][0],
                     size: 25,
                   ),
+                  minLeadingWidth: 3,
                   title: Text(
                     cardcontent[index][1],
                     style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
