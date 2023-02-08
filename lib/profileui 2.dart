@@ -81,6 +81,7 @@ SizedBox(height: 20,),
     Expanded(
         child: ListView.separated(itemBuilder: (context, index) => Container(
 
+
           decoration: BoxDecoration(
               color: Colors.white10,
               borderRadius: BorderRadius.circular(50)

@@ -31,6 +31,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_rating_bar: ^4.0.1
+
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -61,8 +63,11 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/TAJ.jpg
-    - assets/images/top-places-to-visit-in-the-world-rome-italy.jpg
+    - assets/images/5296499_fb_facebook_facebook logo_icon.png
+    - assets/images/3225194_app_facebook_logo_media_popular_icon.png
+    - assets/images/394187_github_icon.png
+    - assets/images/3225183_app_logo_media_popular_social_icon.png
+    - assets/images/3225190_app_linkedin_logo_media_popular_icon.png
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

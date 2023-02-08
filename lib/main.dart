@@ -1,6 +1,8 @@
 import 'dart:async';
 
 
+import 'package:assignments/hoteldetailsui.dart';
+import 'package:assignments/profileui%202.dart';
 import 'package:assignments/profileui.dart';
 import 'package:flutter/material.dart';
 
@@ -23,7 +25,7 @@ class _Spalashscreen extends State {
     super.initState();
     Timer(Duration(seconds: 5), () {
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => ProfileUI()));
+          context, MaterialPageRoute(builder: (context) => hoteldetailsui()));
     });
   }
   @override
