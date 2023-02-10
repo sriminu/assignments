@@ -32,6 +32,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_rating_bar: ^4.0.1
+  carousel_slider: ^4.2.1
 
 
 
@@ -68,6 +69,16 @@ flutter:
     - assets/images/394187_github_icon.png
     - assets/images/3225183_app_logo_media_popular_social_icon.png
     - assets/images/3225190_app_linkedin_logo_media_popular_icon.png
+    - assets/images/1.png
+    - assets/images/far.png
+    - assets/images/Untitled-1.png
+    - assets/images/banner.jpg
+    - assets/images/banner2.jpg
+    - assets/images/main.jpg
+    - assets/images/main (1).jpg
+    - assets/images/main3.jpg
+    - assets/images/main4.jpg
+    - assets/images/main5.jpg
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
